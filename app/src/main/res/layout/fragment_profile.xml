@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0A0A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.3"
+            android:text="RIDER PROFILE"
+            android:textColor="#444444"
+            android:textSize="10sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_card_default"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_profile_photo"
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/bg_device_icon_frame"
+                    android:contentDescription="Profile avatar"
+                    android:padding="14dp"
+                    android:src="@android:drawable/ic_menu_myplaces"
+                    android:tint="@color/textDim" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="12dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_profile_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NO NAME SET"
+                        android:textColor="#DDDDDD"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv_profile_age"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:text="AGE NOT SET"
+                        android:textColor="#888888"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="16dp"
+                android:background="#2A2A2A" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="NAME"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Full Name"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="AGE"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_age"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Age"
+                android:inputType="number"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="BLOOD TYPE"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <Spinner
+                android:id="@+id/spinner_blood_type"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="ALLERGIES"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_allergies"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Penicillin, Latex..."
+                android:minLines="2"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="CONDITIONS"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_medical_conditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Diabetes, Hypertension..."
+                android:minLines="2"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="MEDICATIONS"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_medications"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Metformin 500mg..."
+                android:minLines="2"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="EMERGENCY NOTES"
+                android:textColor="#444444"
+                android:textSize="10sp" />
+
+            <EditText
+                android:id="@+id/et_emergency_notes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_input_default"
+                android:fontFamily="monospace"
+                android:hint="Pacemaker fitted, do not defibrillate..."
+                android:minLines="3"
+                android:padding="12dp"
+                android:textColor="#DDDDDD"
+                android:textColorHint="#444444"
+                android:textSize="14sp" />
+
+            <Button
+                android:id="@+id/btn_save_profile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_button_red"
+                android:text="SAVE PROFILE"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="0.3"
+            android:text="EMERGENCY CONTACTS (1 = CALL + SMS, 2-4 = SMS ONLY)"
+            android:textColor="#444444"
+            android:textSize="10sp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_contacts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:nestedScrollingEnabled="false" />
+
+        <Button
+            android:id="@+id/btn_add_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button_outline_red"
+            android:text="@string/btn_add_contact"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/tv_contact_warning"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="⚠ Add at least 1 contact to enable ARM RIDE"
+            android:textColor="#C0392B"
+            android:textSize="11sp"
+            android:visibility="gone" />
+    </LinearLayout>
+</ScrollView>

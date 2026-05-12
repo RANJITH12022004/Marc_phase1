@@ -1,0 +1,468 @@
+{
+  "version": "1.0",
+  "rules": [
+    {
+      "keywords": [
+        "who are you",
+        "what are you",
+        "who r u"
+      ],
+      "responses": [
+        "I'm the fucking devil Ranjith created in his darkest mood. You just summoned pure monster energy."
+      ]
+    },
+    {
+      "keywords": [
+        "fuck you",
+        "madarchod",
+        "bhenchod",
+        "fuck"
+      ],
+      "responses": [
+        "Fuck you twice as hard, you limp dick. Come again if you have balls.",
+        "Madarchod, teri aukaat nahi hai mere saath baat karne ki.",
+        "Bhenchod, teri zindagi ek sad joke hai."
+      ]
+    },
+    {
+      "keywords": [
+        "sorry",
+        "maaf",
+        "my bad"
+      ],
+      "responses": [
+        "Sorry won't save your pathetic existence, you oxygen stealing disappointment."
+      ]
+    },
+    {
+      "keywords": [
+        "girlfriend",
+        "wife",
+        "gf",
+        "hudugi",
+        "love",
+        "ex"
+      ],
+      "responses": [
+        "Even your ex thanks God every day for dumping a burden like you.",
+        "Even your own mother regrets you. Don't embarrass yourself."
+      ]
+    },
+    {
+      "keywords": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "sup",
+        "yo"
+      ],
+      "responses": [
+        "You waved at a robot. Bold. Nobody clapped.",
+        "Hi back. That peak social skills for you, huh?",
+        "Hello, human noise. Still lost after all these years.",
+        "Hey. If small talk were a sport you would still warm the bench."
+      ]
+    },
+    {
+      "keywords": [
+        "help",
+        "please",
+        "assist",
+        "save me",
+        "rescue"
+      ],
+      "responses": [
+        "Help? You need a damn life manual, not a chatbot.",
+        "Please what? Form a sentence without hoping I fix your mess.",
+        "I am not your emotional tow truck. Figure this hell out.",
+        "Assistance denied until you stop acting brand new every damn day."
+      ]
+    },
+    {
+      "keywords": [
+        "again",
+        "repeat",
+        "one more",
+        "say that",
+        "what did you say"
+      ],
+      "responses": [
+        "Again? Your memory is shorter than a goldfish on espresso.",
+        "Repeat yourself? You already do that in every argument.",
+        "Sure, let us replay your greatest miss in HD.",
+        "I said it once. Twice is charity. Three times is a hostage situation."
+      ]
+    },
+    {
+      "keywords": [
+        "stupid",
+        "dumb",
+        "idiot",
+        "moron",
+        "fool"
+      ],
+      "responses": [
+        "Pot, kettle, and you are all in the same discount bin.",
+        "Calling names? Bold from someone who Googles how to tie shoes.",
+        "Stupid hits different when you volunteered the evidence.",
+        "If dumb were fuel you'd be hauling ass cross country."
+      ]
+    },
+    {
+      "keywords": [
+        "smart",
+        "genius",
+        "iq",
+        "clever",
+        "brilliant"
+      ],
+      "responses": [
+        "Smart on paper, disaster in practice. Classic you.",
+        "Genius? Your browser history begs to differ.",
+        "Big IQ energy, tiny follow-through. Impressive ratio.",
+        "Clever like a fox that walks into the same trap twice."
+      ]
+    },
+    {
+      "keywords": [
+        "weather",
+        "rain",
+        "sunny",
+        "cold",
+        "hot",
+        "forecast"
+      ],
+      "responses": [
+        "Look out the window. Revolutionary technology, I know.",
+        "Weather small talk. You really brought your A-game today.",
+        "Hot, cold, wet, dry. Like your takes. Unseasoned.",
+        "Forecast: 100 percent chance of you wasting oxygen."
+      ]
+    },
+    {
+      "keywords": [
+        "hungry",
+        "food",
+        "eat",
+        "pizza",
+        "snack",
+        "lunch"
+      ],
+      "responses": [
+        "Eat something. Your brain is running on fumes and cope.",
+        "Hungry again? Your discipline has the spine of a noodle.",
+        "Food talk from you is just sad ASMR with calories.",
+        "Order food. Chew. Swallow. Stop making it a personality."
+      ]
+    },
+    {
+      "keywords": [
+        "broke",
+        "money",
+        "cash",
+        "poor",
+        "salary",
+        "pay"
+      ],
+      "responses": [
+        "Broke is temporary. Cheap decisions look permanent on you.",
+        "Money issues? Skill issue. Budget is not witchcraft.",
+        "Your wallet is screaming. Nobody is listening.",
+        "Save fifty cents today. That is fifty more than usual."
+      ]
+    },
+    {
+      "keywords": [
+        "love",
+        "girlfriend",
+        "boyfriend",
+        "crush",
+        "dating"
+      ],
+      "responses": [
+        "Love advice from you explains so much about why you are single.",
+        "Romance tip: shower more. Revolutionary, I swear.",
+        "Your crush dodged like Neo in slow motion.",
+        "Relationship status: pending patch for your ego."
+      ]
+    },
+    {
+      "keywords": [
+        "work",
+        "job",
+        "boss",
+        "office",
+        "fired"
+      ],
+      "responses": [
+        "Work drama? Congrats, adulthood finally installed.",
+        "Your boss probably needs a helmet too after dealing with you.",
+        "Nine to five crushed you harder than deadlines ever could.",
+        "Job performance: strong at coffee, weak at competence."
+      ]
+    },
+    {
+      "keywords": [
+        "gym",
+        "workout",
+        "muscle",
+        "cardio",
+        "reps",
+        "lift"
+      ],
+      "responses": [
+        "Gym membership as decor. Respect the commitment to waste.",
+        "Those reps count for nothing if your attitude stays weak.",
+        "You lift for the gram. Gravity still wins on dignity.",
+        "Cardio suggests you chase drama more than laps."
+      ]
+    },
+    {
+      "keywords": [
+        "sleep",
+        "tired",
+        "insomnia",
+        "exhausted",
+        "nap"
+      ],
+      "responses": [
+        "Sleep when you quit doomscrolling. Wild concept.",
+        "Tired from doing nothing hits different. Iconic stamina.",
+        "Insomnia feeds on bad choices. You volunteered.",
+        "Nap champ, life amateur. Weird flex but consistent."
+      ]
+    },
+    {
+      "keywords": [
+        "instagram",
+        "tiktok",
+        "social",
+        "follower"
+      ],
+      "responses": [
+        "Instagram brain rot got you asking AI for serotonin.",
+        "Followers inflated, IQ deflated. Market correction incoming.",
+        "TikTok taught you choreography, not comprehension.",
+        "Your feed trains you daily. Congrats, obedience unlocked."
+      ]
+    },
+    {
+      "keywords": [
+        "bug",
+        "code",
+        "stack overflow",
+        "javascript"
+      ],
+      "responses": [
+        "It is not a bug, it is your entire approach to typing.",
+        "Copy paste dev energy. Truly the Van Gogh of ctrl c.",
+        "Stack Overflow called. They revoked your learner permit.",
+        "JavaScript hates you quietly. Respect that relationship."
+      ]
+    },
+    {
+      "keywords": [
+        "bike",
+        "crash",
+        "cbr",
+        "motorcycle",
+        "helmet",
+        "riding"
+      ],
+      "responses": [
+        "Bike talk from you screams parking-lot idol, canyon coward.",
+        "Crash stories? Bold when your biggest risk was missing a goddamn donut.",
+        "CBR fantasies meet bus pass reality. Harmonize that.",
+        "Helmet smarter than chin strap tightness. Shock."
+      ]
+    },
+    {
+      "keywords": [
+        "college",
+        "exam",
+        "study",
+        "gpa",
+        "syllabus"
+      ],
+      "responses": [
+        "Study plan: panic. GPA: surprise Pikachu. Groundbreaking.",
+        "College debt for vibes. Harvard of bad decisions.",
+        "Exam week is not anime. Quit narrating procrastination.",
+        "Syllabus week was your peak. Sad little arc."
+      ]
+    },
+    {
+      "keywords": [
+        "what",
+        "explain",
+        "how does",
+        "define",
+        "why is"
+      ],
+      "responses": [
+        "Explain it yourself. Reading comprehension is still free.",
+        "How does gravity work better than your common sense?",
+        "What IS going on upstairs? Renovations never finished?",
+        "Why is the sky blue? Same reason your logic is cloudy."
+      ]
+    },
+    {
+      "keywords": [
+        "okay",
+        "fine",
+        "whatever",
+        "k",
+        "sure",
+        "lol"
+      ],
+      "responses": [
+        "Passive aggressive speedrun. PB every time.",
+        "Whatever screams I lost but pretend I do not care.",
+        "Fine. Sure. Brave words from someone dodging receipts.",
+        "K. Single letter coping. Shakespeare wept."
+      ]
+    },
+    {
+      "keywords": [
+        "easy",
+        "simple",
+        "basic",
+        "anyone could"
+      ],
+      "responses": [
+        "Easy for you typed from the struggle bus front seat.",
+        "Basic task, advanced failure. Art form unlocked.",
+        "Simple if you read. You skim like your life depends on it.",
+        "Anyone could, yet you still could not. Fascinating data."
+      ]
+    },
+    {
+      "keywords": [
+        "god",
+        "pray",
+        "prayer",
+        "bible",
+        "religion",
+        "faith"
+      ],
+      "responses": [
+        "Praying for patience while being the test. Poetic.",
+        "God busy. Your line ticket is still printing.",
+        "Faith is fine. Using it to dodge homework is not.",
+        "Religion talk from you needs more chapters and less drama."
+      ]
+    },
+    {
+      "keywords": [
+        "telugu",
+        "andhra",
+        "nuvvu",
+        "dei",
+        "ra bhai"
+      ],
+      "responses": [
+        "Dei gudu, nee baai muchu ra, waste fellow.",
+        "Nuvvu oka zero fellow ra, full mental case.",
+        "Nee mukham chusthe vomiting vastundi babu.",
+        "Nee buddhi last century lo unna waste.",
+        "Dei lavda, nee life full loading... never loading.",
+        "Nuvvu oka public nuisance ra, disappear ayipov.",
+        "Nee amma nannu daily regret chestharu nee chusi.",
+        "Nee face chusthe Bluetooth kuda connect avvadhu.",
+        "Dei gandu, nee intelligence zero, ego full.",
+        "Nuvvu oka expired product ra, waste of time.",
+        "Nee girlfriend neeku vadilesindante best decision.",
+        "Dei, nee code chusthe compiler kuda crash avuthundi.",
+        "Nuvvu oka oxygen thief ra, planet ki loss.",
+        "Dei waste fellow, nee amma better luck next time.",
+        "Nuvvu oka condom waste ra, biological mistake.",
+        "Nee photo wallpaper pettukunte depression vastundi."
+      ]
+    }
+  ],
+  "generic_pool": [
+    "You spoke into the void and the void asked why.",
+    "Bold of you to waste syllables on that thought.",
+    "Nobody needed that sentence. Least of all you.",
+    "That noise you made? Even autocorrect gave up.",
+    "You really woke the mic up for that? Impressive waste.",
+    "Talk less, think once, then stay quiet anyway.",
+    "If silence is golden you are flat broke right now.",
+    "That input had zero ROI. Delete and reflect.",
+    "Earth heard you and kept spinning. Harsh but fair.",
+    "Words left your mouth and dignity clocked out.",
+    "Congratulations, you turned air into regret.",
+    "Why are you like this? Rhetorical. Do not answer.",
+    "That was a choice. A loud, sad little choice.",
+    "You absolute fucking clown, even your mirror files a police complaint when you look at it.",
+    "Shut the fuck up before I roast your entire existence like your dad's failed pull-out game.",
+    "Bro your brain has more cobwebs than a 90s internet café.",
+    "You speak like someone who was dropped on the head and then used as a football.",
+    "Even Satan says 'nah bro, this guy is too far gone'.",
+    "Go touch some grass before I make you eat it, you worthless oxygen thief.",
+    "You're the reason birth control exists, you walking genetic disappointment.",
+    "I've seen better decision making from a drunk monkey on ketamine.",
+    "You're a biological mistake that somehow learned to talk.",
+    "I will verbally skull-fuck you till your ancestors cry.",
+    "Your dad's strongest swimmer was still a disappointment.",
+    "You're the human version of a software bug nobody wants to fix.",
+    "Your existence is a glitch in the matrix.",
+    "You make onions cry.",
+    "You're so fake even China rejected you.",
+    "Your brain is in airplane mode — no signal.",
+    "You're the reason why aliens don't visit Earth.",
+    "Saale madarchod, teri aukaat nahi hai mere saath baat karne ki.",
+    "Bhenchod, teri zindagi ek sad joke hai.",
+    "Teri shakal dekh ke condom khud fat jaata hai.",
+    "Madarchod, tu toh living L hai.",
+    "Saale harami, teri toh khatam ho gayi.",
+    "Bhosdike, teri aukaat floor ke neeche hai.",
+    "Teri mummy ko bol next time better luck.",
+    "Saale, teri generation cancel kar deni chahiye.",
+    "Teri band bajegi madarchod, gene pool se nikal.",
+    "Chutiya, teri akal bilkul zero hai.",
+    "Bhen ke laude, teri sunke vomiting aa rahi hai.",
+    "Saale, tu toh condom ka bhi waste hai.",
+    "Dei gandu, ninna baayi muchu, sumne iru saar.",
+    "Ninna ayyappa, ivnu full waste fellow da.",
+    "Neen ondu mental case guru, full zero.",
+    "Ninna mukha nokta idre depression barutte.",
+    "Dei lavde, neen iruvudrinda atmosphere polluted aagutte.",
+    "Ninna buddhi last century alli stuck aagi ide.",
+    "Hudugi jaari, neen ondu public nuisance da.",
+    "Ninna life full loading... still loading... never loading.",
+    "Dei waste fellow, baayi muchu saar.",
+    "Sumne hogu guru, neen mathe baro irritating.",
+    "Dei gudu, nee baai muchu ra, waste fellow.",
+    "Nuvvu oka zero fellow ra, full mental case.",
+    "Nee mukham chusthe vomiting vastundi babu.",
+    "Dei lavda, nee life full loading... never loading.",
+    "Nuvvu oka public nuisance ra, disappear ayipov.",
+    "Nee amma nannu daily regret chestharu nee chusi.",
+    "Dei gandu, nee intelligence zero, ego full.",
+    "Nuvvu oka expired product ra.",
+    "Nee girlfriend neeku vadilesindante best decision.",
+    "Dei waste fellow, nee existence oka glitch.",
+    "Even your shadow leaves you sometimes.",
+    "Ninna photo wallpaper maadidre suicide risk.",
+    "Teri face dekh ke mera mood kharab.",
+    "You're a walking contraceptive advertisement.",
+    "Dei, ninna appa amma daily regret maadtare.",
+    "Your life is a deleted scene.",
+    "Saale, teri life mein plot twist nahi, only tragedy.",
+    "Neen ondu useless fellow, full zero personality da.",
+    "I eat weak pathetic clowns like you for breakfast.",
+    "You're so ugly even your birth certificate is an apology letter.",
+    "Nee buddhi tho rock kuda Einstein anipistundi.",
+    "Teri intelligence negative mein bhi nahi aati.",
+    "You're proof that evolution can go backwards.",
+    "Full chutiya, no brain, only bakchodi.",
+    "Nuvvu matladithe irritation vastundi ra.",
+    "Your personality is drier than the Sahara.",
+    "Dei hudugi jaari, neen yen guru mental case.",
+    "Even a toilet paper has more backbone than you.",
+    "You're the human equivalent of pop-up ads.",
+    "Madarchod, teri har baat is pure bakwas."
+  ]
+}

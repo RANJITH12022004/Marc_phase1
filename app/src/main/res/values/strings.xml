@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MARC</string>
+
+    <string name="nav_system">SYSTEM</string>
+    <string name="nav_marc">MARC</string>
+    <string name="nav_bike">BIKE</string>
+    <string name="nav_profile">PROFILE</string>
+    <string name="nav_settings">SETTINGS</string>
+
+    <string name="btn_arm">▶ ARM RIDE</string>
+    <string name="btn_end">■ END RIDE</string>
+    <string name="btn_scan">⬡ SCAN FOR DEVICES</string>
+    <string name="btn_save">SAVE</string>
+    <string name="btn_cancel">CANCEL</string>
+    <string name="btn_capture">CAPTURE</string>
+    <string name="btn_connect">CONNECT</string>
+    <string name="btn_ping">PING</string>
+    <string name="btn_test">TEST CONNECTION</string>
+    <string name="btn_speak">◉ TAP TO SPEAK</string>
+    <string name="btn_send_calib">SAVE &amp; SEND TO BIKE UNIT</string>
+    <string name="btn_add_contact">+ ADD CONTACT</string>
+    <string name="btn_copy_coords">COPY COORDINATES</string>
+
+    <string name="label_helmet">HELMET UNIT</string>
+    <string name="label_bike">BIKE UNIT</string>
+    <string name="label_ai_engine">AI ENGINE</string>
+    <string name="label_wake_word">WAKE WORD ENGINE</string>
+    <string name="label_connections">PICO CONNECTIONS</string>
+    <string name="label_calibration">BIKE CALIBRATION</string>
+    <string name="label_about">ABOUT MARC</string>
+    <string name="label_emergency">EMERGENCY CONTACTS</string>
+    <string name="label_profile">RIDER PROFILE</string>
+
+    <string name="marc_toggle_voice_label">VOICE</string>
+    <string name="marc_toggle_text_label">TEXT</string>
+    <string name="marc_send">SEND</string>
+
+    <string name="marc_core_warning">Warning. Marc Core has no filter, no mercy, and no humanity. It runs on Ranjith humor. Proceed anyway?</string>
+    <string name="marc_core_activated">Marc Core activated. God help you.</string>
+    <string name="marc_core_deactivated">Marc Core deactivated. Normal MARC restored. Stay safe out there.</string>
+    <string name="crash_detected">Crash detected. Calling for help in 10 seconds. Say Hey MARC cancel to stop.</string>
+    <string name="emergency_cancelled">Emergency cancelled. Stay safe.</string>
+
+    <string name="hint_ask_marc">Ask MARC...</string>
+
+    <string name="label_marc_one_key">MARC ONE KEY</string>
+    <string name="hint_marc_one_key">Paste MARC ONE key</string>
+
+    <string name="label_marc_back_server">MARC BACK SERVER</string>
+    <string name="hint_marc_back_server">192.168.1.100:11434</string>
+
+    <string name="label_marc_ai_model">MARC AI</string>
+    <string name="hint_marc_ai_model">Server model identifier</string>
+
+    <string name="ai_engine_marc_one_active">MARC ONE // ACTIVE</string>
+    <string name="ai_engine_marc_back_active">MARC BACK // ACTIVE</string>
+
+    <string name="crash_notification_channel_name">MARC SOS — crash</string>
+    <string name="crash_notification_channel_desc">Opens crash countdown above the lock screen</string>
+    <string name="crash_notification_title">CRASH DETECTED</string>
+    <string name="crash_notification_text">Emergency countdown started — unlock if needed</string>
+
+    <string name="calib_capture_order_btn">CAPTURE STANDING → MAX RIGHT → MAX LEFT IN ORDER</string>
+    <string name="calib_step1_title">STRAIGHT UPRIGHT</string>
+    <string name="calib_step1_subtitle">Hold bike perfectly vertical on its stand</string>
+    <string name="calib_step2_title">MAX RIGHT LEAN</string>
+    <string name="calib_step2_subtitle">Lean bike to the rightmost safe angle (lean right)</string>
+    <string name="calib_step3_title">MAX LEFT LEAN</string>
+    <string name="calib_step3_subtitle">Lean bike to the leftmost safe angle (lean left)</string>
+    <string name="calib_footer_note">Calibrate in order: 1 → 2 → 3. Any lean beyond these angles triggers crash detection.</string>
+
+    <string name="about_tagline">Named after Marc Marcuze 93 — Never Give Up.</string>
+    <string name="about_built_by">Built by Ranjith Kumar Dasari</string>
+    <string name="about_role">Embedded Systems &amp; Software Engineer | EEE Final Year, DSCE Bangalore</string>
+    <string name="about_email">ranjithdsr2@gmail.com</string>
+    <string name="about_github">github.com/RANJITH12022004</string>
+
+    <string name="permission_rationale">MARC needs microphone, location, and phone permissions to protect you on the road.</string>
+</resources>

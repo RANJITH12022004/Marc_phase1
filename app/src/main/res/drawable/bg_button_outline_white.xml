@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 8 — BUTTON: outline white -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorTransparent" />
+    <stroke
+        android:width="@dimen/border_width"
+        android:color="@color/colorSecondary" />
+    <corners android:radius="@dimen/corner_radius_sharp" />
+</shape>

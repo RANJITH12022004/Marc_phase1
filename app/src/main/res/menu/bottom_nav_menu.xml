@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    MARC bottom navigation — item ids match @navigation/nav_graph destinations for setupWithNavController.
+    Replace @android:drawable icons with custom vector drawables for production.
+-->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboardFragment"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:title="@string/nav_system" />
+    <item
+        android:id="@+id/marcFragment"
+        android:icon="@android:drawable/ic_btn_speak_now"
+        android:title="@string/nav_marc" />
+    <item
+        android:id="@+id/bikeFragment"
+        android:icon="@android:drawable/ic_menu_directions"
+        android:title="@string/nav_bike" />
+    <item
+        android:id="@+id/profileFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="@string/nav_profile" />
+    <item
+        android:id="@+id/settingsFragment"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="@string/nav_settings" />
+</menu>

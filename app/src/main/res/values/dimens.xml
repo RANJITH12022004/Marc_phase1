@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MARC — continuation scale (sharp cards, flat surfaces) -->
+
+    <dimen name="margin_micro">2dp</dimen>
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">24dp</dimen>
+    <dimen name="margin_xlarge">32dp</dimen>
+
+    <dimen name="padding_screen">16dp</dimen>
+    <dimen name="padding_card">12dp</dimen>
+
+    <dimen name="corner_radius_sharp">2dp</dimen>
+    <dimen name="corner_radius_small">4dp</dimen>
+    <dimen name="corner_radius_medium">8dp</dimen>
+    <dimen name="corner_radius_card">2dp</dimen>
+
+    <dimen name="text_micro">7sp</dimen>
+    <dimen name="text_tiny">8sp</dimen>
+    <dimen name="text_small">10sp</dimen>
+    <dimen name="text_body">12sp</dimen>
+    <dimen name="text_subtitle">14sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+    <dimen name="text_heading">20sp</dimen>
+    <dimen name="text_display">28sp</dimen>
+    <dimen name="text_hero">36sp</dimen>
+    <dimen name="text_mega">48sp</dimen>
+
+    <dimen name="icon_small">16dp</dimen>
+    <dimen name="icon_medium">20dp</dimen>
+    <dimen name="icon_large">24dp</dimen>
+
+    <dimen name="nav_height">60dp</dimen>
+    <dimen name="status_bar_height">48dp</dimen>
+    <dimen name="card_elevation">0dp</dimen>
+    <dimen name="border_width">1dp</dimen>
+    <dimen name="border_width_accent">2dp</dimen>
+    <dimen name="orb_size">130dp</dimen>
+</resources>

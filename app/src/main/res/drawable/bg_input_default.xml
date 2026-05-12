@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 15 — INPUT: default -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="@color/colorNavBackground" />
+    <stroke
+        android:width="@dimen/border_width"
+        android:color="@color/colorSurfaceTop" />
+    <corners android:radius="@dimen/corner_radius_sharp" />
+</shape>

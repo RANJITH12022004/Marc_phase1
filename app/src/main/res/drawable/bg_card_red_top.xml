@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2 — CARD: default body + 1dp primary accent strip on top -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorCardDefault" />
+            <stroke
+                android:width="@dimen/border_width"
+                android:color="@color/colorBorder" />
+            <corners android:radius="@dimen/corner_radius_sharp" />
+        </shape>
+    </item>
+    <item
+        android:left="0dp"
+        android:right="0dp"
+        android:top="0dp"
+        android:height="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorPrimary" />
+        </shape>
+    </item>
+</layer-list>

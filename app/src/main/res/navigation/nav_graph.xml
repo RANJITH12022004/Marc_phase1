@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/dashboardFragment">
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.marc.helmet.fragments.dashboard.DashboardFragment"
+        android:label="SYSTEM"
+        tools:layout="@layout/fragment_dashboard" />
+
+    <fragment
+        android:id="@+id/marcFragment"
+        android:name="com.marc.helmet.fragments.marc.MarcFragment"
+        android:label="MARC"
+        tools:layout="@layout/fragment_marc" />
+
+    <fragment
+        android:id="@+id/bikeFragment"
+        android:name="com.marc.helmet.fragments.bike.BikeFragment"
+        android:label="BIKE"
+        tools:layout="@layout/fragment_bike" />
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.marc.helmet.fragments.profile.ProfileFragment"
+        android:label="PROFILE"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.marc.helmet.fragments.settings.SettingsFragment"
+        android:label="SETTINGS"
+        tools:layout="@layout/fragment_settings" />
+</navigation>

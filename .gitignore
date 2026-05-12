@@ -1,0 +1,31 @@
+# Gradle / Android
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+captures/
+
+# Secrets & local config (never commit API keys)
+*.jks
+*.keystore
+secrets.properties
+**/google-services.json
+
+# Outputs
+*.apk
+*.aab
+*.ap_
+
+# UI automation dumps / device captures
+settings_dump.xml
+**/settings_dump.xml
+.cursor/
+*_dump.xml
+bike_dump.xml
+emergency_after.xml
+profile_dump.xml
+screen.png
+ui_*.xml
+window_dump*.xml

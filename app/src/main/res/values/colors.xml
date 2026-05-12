@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- MARC — charcoal / red primary (continuation theme). Fonts: IBM Plex Mono, Space Grotesk. -->
+
+    <!-- Background system -->
+    <color name="colorBackground">#141414</color>
+    <color name="colorSurface">#1A1A1A</color>
+    <color name="colorSurfaceVariant">#1F1F1F</color>
+    <color name="colorSurfaceElevated">#252525</color>
+    <color name="colorSurfaceTop">#2A2A2A</color>
+
+    <!-- Accent system -->
+    <color name="colorPrimary">#FF2020</color>
+    <color name="colorPrimaryDark">#CC1A1A</color>
+    <color name="colorPrimaryLight">#FF4444</color>
+    <color name="colorSecondary">#FFFFFF</color>
+    <color name="colorAccentGreen">#00FF88</color>
+    <color name="colorAccentGreenDim">#00CC66</color>
+
+    <!-- Text system -->
+    <color name="textPrimary">#FFFFFF</color>
+    <color name="textSecondary">#E2E8F0</color>
+    <color name="textMuted">#94A3B8</color>
+    <color name="textDim">#555555</color>
+    <color name="textDeep">#2D2D2D</color>
+
+    <!-- Border / divider -->
+    <color name="colorBorder">#222222</color>
+    <color name="colorDivider">#1E1E1E</color>
+    <color name="colorBorderFocus">#FF2020</color>
+
+    <!-- Status colors -->
+    <color name="colorConnected">#00FF88</color>
+    <color name="colorDisconnected">#555555</color>
+    <color name="colorWarning">#FF8800</color>
+    <color name="colorError">#FF2020</color>
+    <color name="colorSuccess">#00FF88</color>
+
+    <!-- Navigation -->
+    <color name="colorNavBackground">#0E0E0E</color>
+    <color name="colorNavSelected">#FF2020</color>
+    <color name="colorNavUnselected">#555555</color>
+
+    <!-- MARC Core -->
+    <color name="colorCoreRed">#FF2020</color>
+    <color name="colorCoreDark">#1A0000</color>
+    <color name="colorCoreGlow">#33FF2020</color>
+
+    <!-- Cards -->
+    <color name="colorCardDefault">#1A1A1A</color>
+    <color name="colorCardAlert">#1A0000</color>
+    <color name="colorCardSuccess">#001A08</color>
+
+    <!-- Transparent -->
+    <color name="colorTransparent">#00000000</color>
+
+    <!-- Aliases — Material / layouts -->
+    <color name="colorOnPrimary">#FFFFFF</color>
+    <color name="colorOnBackground">@color/textSecondary</color>
+    <color name="colorOnSurface">@color/textSecondary</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">@color/colorTransparent</color>
+</resources>

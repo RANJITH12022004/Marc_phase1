@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 21 — ORB: core / active emphasis -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="@color/colorCoreDark" />
+    <stroke
+        android:width="@dimen/border_width_accent"
+        android:color="@color/colorPrimary" />
+</shape>

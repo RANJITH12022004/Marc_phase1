@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A0505"
+    tools:context=".activities.CrashAlertActivity">
+
+    <View
+        android:id="@+id/v_flash"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/crash_center_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:letterSpacing="4"
+            android:text="IMPACT DETECTED"
+            android:textColor="#661111"
+            android:textSize="7sp" />
+
+        <TextView
+            android:id="@+id/tv_crash_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="3"
+            android:text="CRASH DETECTED"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:text="CALLING FOR HELP IN"
+            android:textColor="#4DFFFFFF"
+            android:textSize="8sp" />
+
+        <TextView
+            android:id="@+id/tv_countdown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:letterSpacing="0"
+            android:lineSpacingExtra="0dp"
+            android:text="10"
+            android:textColor="@color/colorPrimary"
+            android:textSize="80sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="monospace"
+            android:letterSpacing="1.5"
+            android:text="SAY &apos;HEY MARC, CANCEL&apos; OR:"
+            android:textColor="@color/textDeep"
+            android:textSize="8sp" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="270dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_button_outline_red"
+            android:fontFamily="monospace"
+            android:letterSpacing="2"
+            android:padding="14dp"
+            android:text="■ CANCEL EMERGENCY CALL"
+            android:textAllCaps="false"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:fontFamily="monospace"
+            android:gravity="center"
+            android:text="GPS + MEDICAL DATA QUEUED FOR ALL CONTACTS"
+            android:textColor="@color/colorSurface"
+            android:textSize="7sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
