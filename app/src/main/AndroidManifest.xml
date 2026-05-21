@@ -18,9 +18,6 @@
     <uses-permission
         android:name="android.permission.FOREGROUND_SERVICE_LOCATION"
         tools:targetApi="34" />
-    <uses-permission
-        android:name="android.permission.FOREGROUND_SERVICE_MICROPHONE"
-        tools:targetApi="34" />
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -79,6 +76,6 @@
         <service
             android:name=".services.MarcForegroundService"
             android:exported="false"
-            android:foregroundServiceType="location|microphone" />
+            android:foregroundServiceType="location" />
     </application>
 </manifest>

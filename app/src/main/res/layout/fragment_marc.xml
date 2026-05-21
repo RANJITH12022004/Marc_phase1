@@ -91,7 +91,7 @@
             android:text="STANDBY // SAY HEY MARC"
             android:textAlignment="center"
             android:textColor="#444444"
-            android:textSize="10sp" />
+            android:textSize="12sp" />
 
         <TextView
             android:id="@+id/tv_listening_text"
@@ -102,7 +102,7 @@
             android:layout_marginEnd="24dp"
             android:textAlignment="center"
             android:textColor="#888888"
-            android:textSize="14sp"
+            android:textSize="17sp"
             android:textStyle="italic" />
 
         <android.widget.Space
@@ -117,7 +117,7 @@
             android:fontFamily="monospace"
             android:textAlignment="center"
             android:textColor="@color/colorPrimary"
-            android:textSize="11sp" />
+            android:textSize="13sp" />
 
         <Button
             android:id="@+id/btn_tap_to_speak"
@@ -186,7 +186,7 @@
                 android:minHeight="48dp"
                 android:padding="12dp"
                 android:textColor="#DDDDDD"
-                android:textSize="14sp" />
+                android:textSize="16sp" />
 
             <Button
                 android:id="@+id/btn_send"

@@ -19,7 +19,7 @@
         android:text="MARC"
         android:textAllCaps="true"
         android:textColor="@color/colorPrimary"
-        android:textSize="7sp" />
+        android:textSize="10sp" />
 
     <LinearLayout
         android:id="@+id/bubble_container"
@@ -38,9 +38,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="monospace"
-            android:lineSpacingExtra="2dp"
+            android:lineSpacingExtra="5dp"
             android:textColor="@color/textSecondary"
-            android:textSize="11sp"
+            android:textSize="16sp"
             tools:text="MARC reply" />
 
         <TextView
@@ -50,7 +50,7 @@
             android:layout_marginTop="4dp"
             android:fontFamily="monospace"
             android:textColor="@color/textDim"
-            android:textSize="8sp"
+            android:textSize="10sp"
             tools:text="14:02" />
     </LinearLayout>
 </LinearLayout>

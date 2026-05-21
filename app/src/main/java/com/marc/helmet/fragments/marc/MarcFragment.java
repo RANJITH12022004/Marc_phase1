@@ -41,6 +41,7 @@ import com.marc.helmet.speech.MarcTTSManager;
 import com.marc.helmet.utils.MarcCoreUiHelper;
 import com.marc.helmet.utils.MarcLocalResponder;
 import com.marc.helmet.utils.NetworkUtils;
+import com.marc.helmet.utils.PermissionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -356,12 +357,33 @@ public class MarcFragment extends Fragment {
 
     void startVoiceListening() {
         Log.d("MARC_WAKE", "STT startListening called");
+        if (!PermissionUtils.hasAudio(requireContext())) {
+            Toast.makeText(
+                            requireContext(),
+                            "Microphone permission is required for voice. Enable it in Settings.",
+                            Toast.LENGTH_LONG)
+                    .show();
+            tvMarcState.setText("ERROR // MIC PERMISSION");
+            resetOrbToIdle();
+            return;
+        }
+        if (!GoogleSTTManager.isAvailable(requireContext())) {
+            Toast.makeText(
+                            requireContext(),
+                            "Speech recognition is not available on this device. Install Google app or use text.",
+                            Toast.LENGTH_LONG)
+                    .show();
+            tvMarcState.setText("ERROR // NO STT SERVICE");
+            resetOrbToIdle();
+            return;
+        }
         if (ttsManager != null) {
             ttsManager.stop();
         }
-        if (sttManager == null) {
-            sttManager = new GoogleSTTManager(requireContext());
+        if (sttManager != null) {
+            sttManager.destroy();
         }
+        sttManager = new GoogleSTTManager(requireContext());
         pendingVoicePartial = "";
         MarcCoreUiHelper.setOrbListening(ivOrb);
         tvMarcState.setText("LISTENING // STT ACTIVE");
@@ -397,7 +419,7 @@ public class MarcFragment extends Fragment {
                         }
                         pendingVoicePartial = "";
                         if (resolved.isEmpty()) {
-                            resetOrbToIdle();
+                            deliverOfflineMarcResponse(MarcLocalResponder.getVoiceNoMatchResponse());
                         } else {
                             handleVoiceCommand(resolved);
                         }
@@ -417,10 +439,12 @@ public class MarcFragment extends Fragment {
                         Log.w("MARC_WAKE", "STT error: " + e);
                         pendingVoicePartial = "";
                         resetOrbToIdle();
+                        String msg = e != null ? e : "Listening error";
                         tvMarcState.setText("ERROR // STT");
                         if (tvListeningText != null) {
-                            tvListeningText.setText(e != null ? e : "Listening error");
+                            tvListeningText.setText(msg);
                         }
+                        Toast.makeText(requireContext(), msg, Toast.LENGTH_LONG).show();
                         wakeRestartHandler.postDelayed(
                                 () -> {
                                     if (!isAdded()
@@ -440,10 +464,11 @@ public class MarcFragment extends Fragment {
     }
 
     void sendTextMessage(String text) {
-        if (text == null || text.isEmpty()) {
+        etMessage.setText("");
+        if (text == null || text.trim().isEmpty()) {
+            deliverOfflineMarcResponse(MarcLocalResponder.respond(""));
             return;
         }
-        etMessage.setText("");
         handleVoiceCommand(text);
     }
 
@@ -477,6 +502,14 @@ public class MarcFragment extends Fragment {
         // Fully offline response using curated switch-case style data.
         String response = MarcLocalResponder.respond(trimmed);
         tvLoadingPhrase.setText("");
+        deliverOfflineMarcResponse(response);
+    }
+
+    /** Chat bubble + TTS for normal offline MARC (not Marc Core). */
+    private void deliverOfflineMarcResponse(String response) {
+        if (response == null || !isAdded()) {
+            return;
+        }
         adapter.addMessage(
                 new ChatMessageAdapter.ChatMessage(
                         "marc", response, System.currentTimeMillis()));
@@ -685,7 +718,7 @@ public class MarcFragment extends Fragment {
         Log.d("MARC_WAKE", "activateVoice() called");
         wakeRestartHandler.removeCallbacks(pendingStartVoiceRunnable);
         /* Longer delay: wake SpeechRecognizer teardown + ERROR_SERVER_DISCONNECTED (11) if STT races. */
-        wakeRestartHandler.postDelayed(pendingStartVoiceRunnable, 850L);
+        wakeRestartHandler.postDelayed(pendingStartVoiceRunnable, 1100L);
     }
 
     /**

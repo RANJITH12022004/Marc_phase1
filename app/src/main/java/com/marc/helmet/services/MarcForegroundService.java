@@ -256,11 +256,12 @@ public class MarcForegroundService extends Service {
         Notification notification = buildNotification();
         try {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
+                // Location only — do not claim MICROPHONE here; ride monitoring does not record audio,
+                // and FGS mic type blocks Google SpeechRecognizer used by wake word + Marc STT.
                 startForeground(
                         NOTIFICATION_ID,
                         notification,
-                        ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION
-                                | ServiceInfo.FOREGROUND_SERVICE_TYPE_MICROPHONE);
+                        ServiceInfo.FOREGROUND_SERVICE_TYPE_LOCATION);
             } else if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
                 startForeground(
                         NOTIFICATION_ID,

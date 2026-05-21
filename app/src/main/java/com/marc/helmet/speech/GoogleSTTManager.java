@@ -33,7 +33,7 @@ public class GoogleSTTManager {
     private static final int MAX_LISTEN_MS = 8000;
 
     /** Let the system finish releasing the wake-word {@link SpeechRecognizer} before we open STT. */
-    private static final long DELAY_BEFORE_FIRST_START_MS = 320L;
+    private static final long DELAY_BEFORE_FIRST_START_MS = 500L;
 
     private static final int MAX_RECOVERABLE_RETRIES = 3;
 
@@ -193,11 +193,23 @@ public class GoogleSTTManager {
                     scheduleRetry(callback, attempt, sessionId);
                     return;
                 }
+                // No speech / no match are normal — not hard failures.
+                if (error == SpeechRecognizer.ERROR_NO_MATCH
+                        || error == SpeechRecognizer.ERROR_SPEECH_TIMEOUT) {
+                    STTCallback cb = activeCallback;
+                    if (cb != null) {
+                        cb.onResult("");
+                        cb.onListeningStopped();
+                    }
+                    teardownRecognizerQuietly();
+                    return;
+                }
                 STTCallback cb = activeCallback;
                 if (cb != null) {
                     cb.onError(errorCodeToMessage(error));
                     cb.onListeningStopped();
                 }
+                teardownRecognizerQuietly();
             }
 
             @Override
